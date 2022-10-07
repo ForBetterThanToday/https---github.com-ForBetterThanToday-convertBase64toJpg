@@ -16,3 +16,5 @@ for idx in range(1, worksheet.nrows+1):
             jpg.write(base64.b64decode(excel_data.strip()[22:] + '===='))
             
 print(count)
+
+
